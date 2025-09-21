@@ -1,9 +1,12 @@
 package cat.itacademy.s04.t02.n03.S04T02N03.services;
 
+import cat.itacademy.s04.t02.n03.S04T02N03.events.FruitDeletedEvent;
+import cat.itacademy.s04.t02.n03.S04T02N03.events.FruitQuantityChangedEvent;
 import cat.itacademy.s04.t02.n03.S04T02N03.exceptions.FruitNotFoundException;
 import cat.itacademy.s04.t02.n03.S04T02N03.models.Fruit;
 import cat.itacademy.s04.t02.n03.S04T02N03.models.FruitDTO;
 import cat.itacademy.s04.t02.n03.S04T02N03.repository.FruitRepository;
+import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
