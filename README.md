@@ -92,5 +92,6 @@ http://localhost:8080/fruits-api/{id}
 - [@Component-@Repository-@Services](https://www.baeldung.com/spring-component-repository-service)
 - [SpringEvents](https://www.baeldung.com/spring-events)
 - [HTTP](https://www.restapitutorial.com/httpstatuscodes)
+- [Docker](https://docs.docker.com/engine/containers/start-containers-automatically/#use-a-restart-policy)
 
 [Back to top](#top)
