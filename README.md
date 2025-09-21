@@ -65,24 +65,24 @@ docker-compose ps # See logs container
 ### 🛠️ HTTP requests to update and consult information (POSTMAN)
 ```bash
 URL base:
-http://localhost:8080/fruits-api
+http://localhost:8080/fruits
 
 (POST):
-http://localhost:8080/fruits-api + raw JSON:
+http://localhost:8080/fruits + raw JSON:
 {
-  "name": "Banana",
-  "quantityKilos": 13
+  "name": "Golden Banana",
+  "quantityKilos": 213
 }
 
 (GET):
-http://localhost:8080/fruits-api/{id}
-http://localhost:8080/fruits-api/getAll
+http://localhost:8080/fruits/{id}
+http://localhost:8080/fruits
 
 (PUT):
-http://localhost:8080/fruits-api/{id}
+http://localhost:8080/fruits/{id}
 
 (DELETE):
-http://localhost:8080/fruits-api/{id}
+http://localhost:8080/fruits/{id}
 
 ```
 -----
